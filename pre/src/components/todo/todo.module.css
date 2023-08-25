@@ -1,0 +1,26 @@
+.completedTodo {
+  text-decoration: line-through;
+}
+.item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.2);
+}
+.item > span {
+  display: inline-block;
+  width: 100%;
+}
+.item > input[type="text"] {
+  margin-left: 8px;
+  border: 0;
+  border-bottom: 1px solid #333;
+  padding: 6px 0;
+  outline: 0;
+}
+.item > div {
+  display: flex;
+}

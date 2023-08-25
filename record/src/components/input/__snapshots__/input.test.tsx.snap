@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Input /> > can render correctly 1`] = `
+<input
+  class="input"
+  placeholder="Input"
+  type="text"
+/>
+`;

@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  max-width: 380px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container > div {
+  width: 100%;
+}
+h2 {
+  margin: 16px 0;
+}
+button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+p {
+  font-size: 14px;
+}
+.completedTodo {
+  text-decoration: line-through;
+}
+.boxInput {
+  padding: 6px 10px;
+  border-radius: 4px;
+  margin-right: 8px;
+  border: 1px solid #333;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.box > input {
+  width: 100%;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.2);
+}
+.item > span {
+  display: inline-block;
+  width: 100%;
+}
+.item > input[type="text"] {
+  margin-left: 8px;
+  border: 0;
+  border-bottom: 1px solid #333;
+  padding: 6px 0;
+  outline: 0;
+}
+.item > div {
+  display: flex;
+}
+.base {
+  background-color: #3f606b;
+  color: #fff;
+}
+.edit {
+  background-color: #1741a4;
+  color: #fff;
+  margin-right: 8px;
+}
+.confirm {
+  background-color: #3eb726;
+  color: #fff;
+}
+.remove {
+  background-color: #c32121;
+  color: #fff;
+}
