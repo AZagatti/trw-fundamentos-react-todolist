@@ -1,0 +1,74 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Button /> > can render with base theme 1`] = `
+.c0 {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: #3f606b;
+  color: #fff;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`<Button /> > can render with confirm theme 1`] = `
+.c0 {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: #3eb726;
+  color: #fff;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`<Button /> > can render with edit theme 1`] = `
+.c0 {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: #1741a4;
+  color: #fff;
+  margin-right: 8px;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`<Button /> > can render with remove theme 1`] = `
+.c0 {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  background-color: #c32121;
+  color: #fff;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  Button
+</button>
+`;

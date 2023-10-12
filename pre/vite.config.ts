@@ -11,8 +11,8 @@ export default defineConfig({
     setupFiles: './src/setup-tests.ts',
     css: {
       modules: {
-        classNameStrategy: 'non-scoped'
+        classNameStrategy: 'non-scoped',
       }
-    }
+    },
   }
 })

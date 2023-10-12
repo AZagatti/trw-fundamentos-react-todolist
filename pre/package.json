@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.8"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.0.1",
@@ -25,7 +26,8 @@
     "eslint": "^8.45.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
-    "happy-dom": "^10.10.4",
+    "happy-dom": "^12.9.1",
+    "jest-styled-components": "^7.1.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
     "vitest": "^0.34.2"
