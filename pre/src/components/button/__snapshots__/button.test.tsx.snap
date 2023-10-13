@@ -10,6 +10,11 @@ exports[`<Button /> > can render with base theme 1`] = `
   color: #fff;
 }
 
+.c0:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
 <button
   class="c0"
   type="button"
@@ -26,6 +31,11 @@ exports[`<Button /> > can render with confirm theme 1`] = `
   cursor: pointer;
   background-color: #3eb726;
   color: #fff;
+}
+
+.c0:disabled {
+  background-color: #999;
+  cursor: not-allowed;
 }
 
 <button
@@ -47,6 +57,11 @@ exports[`<Button /> > can render with edit theme 1`] = `
   margin-right: 8px;
 }
 
+.c0:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
+
 <button
   class="c0"
   type="button"
@@ -63,6 +78,11 @@ exports[`<Button /> > can render with remove theme 1`] = `
   cursor: pointer;
   background-color: #c32121;
   color: #fff;
+}
+
+.c0:disabled {
+  background-color: #999;
+  cursor: not-allowed;
 }
 
 <button

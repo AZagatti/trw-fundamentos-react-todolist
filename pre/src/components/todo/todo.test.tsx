@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react'
-import { Todo } from './todo'
+import { TodoItem } from './todo'
 
 const props = {
   todo: {
@@ -14,21 +14,21 @@ const props = {
 
 describe('<Todo />', () => {
   it('can render correctly', () => {
-    render(<Todo {...props} />)
+    render(<TodoItem {...props} />)
     expect(screen.getByText(props.todo.name)).toBeInTheDocument()
   })
   it('can toggle todo completion', () => {
-    render(<Todo {...props} />)
+    render(<TodoItem {...props} />)
     fireEvent.click(screen.getByRole('checkbox'))
     expect(props.handleToggleTodo).toBeCalledTimes(1)
   })
   it('can call handleSelectTodo on click "editar" button', () => {
-    render(<Todo {...props} />)
+    render(<TodoItem {...props} />)
     fireEvent.click(screen.getByText(/editar/i))
     expect(props.handleSelectTodo).toBeCalledTimes(1)
   })
   it('can call handleRemoveTodo on click "remover" button', () => {
-    render(<Todo {...props} />)
+    render(<TodoItem {...props} />)
     fireEvent.click(screen.getByText(/remover/i))
     expect(props.handleRemoveTodo).toBeCalledTimes(1)
   })
