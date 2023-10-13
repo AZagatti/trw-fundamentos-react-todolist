@@ -1,5 +1,5 @@
 import { ButtonHTMLAttributes, PropsWithChildren } from "react"
-import styles from './button.module.css'
+import * as S from './styles'
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   theme?: 'base' | 'edit' | 'confirm' | 'remove'
@@ -8,16 +8,15 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 export const Button = ({
   children,
   theme = 'base',
-  className,
   ...props
 }: PropsWithChildren<ButtonProps>) => {
   return (
-    <button
+    <S.Button
       type="button"
-      className={`${className ?? ''} ${styles.button} ${styles[theme]}`}
+      $theme={theme}
       {...props}
     >
       {children}
-    </button>
+    </S.Button>
   )
 }

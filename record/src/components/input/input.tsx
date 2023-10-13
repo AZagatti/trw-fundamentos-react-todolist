@@ -1,6 +1,6 @@
-import { InputHTMLAttributes } from "react"
-import styles from './input.module.css'
+import { InputHTMLAttributes } from 'react'
+import * as S from './styles'
 
 export const Input = (props: InputHTMLAttributes<HTMLInputElement>) => {
-  return <input className={styles.input} type="text" {...props} />
+  return <S.Input type="text" {...props} />
 }

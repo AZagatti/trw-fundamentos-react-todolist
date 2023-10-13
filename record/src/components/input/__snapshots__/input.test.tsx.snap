@@ -1,8 +1,19 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`<Input /> > can render correctly 1`] = `
+.c0 {
+  padding: 6px 10px;
+  border-radius: 4px;
+  margin-right: 8px;
+  border: 1px solid #333;
+}
+
+.c0:disabled {
+  background-color: #f0f0f0;
+}
+
 <input
-  class="input"
+  class="c0"
   placeholder="Input"
   type="text"
 />

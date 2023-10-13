@@ -1,6 +1,11 @@
 import { TodoList } from "../components/todo-list/todo-list"
-import './home.module.css'
+import { GlobalStyles } from "./styles"
 
 export const Home = () => {
-  return <TodoList />
+  return (
+    <>
+      <GlobalStyles />
+      <TodoList />
+    </>
+  )
 }

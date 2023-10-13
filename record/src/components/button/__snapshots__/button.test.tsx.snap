@@ -1,0 +1,94 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Button /> > can render with base class 1`] = `
+.c0 {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #3f606b;
+}
+
+.c0:disabled {
+  background-color: #b1b1b1;
+  cursor: not-allowed;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`<Button /> > can render with confirm class 1`] = `
+.c0 {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #3eb726;
+}
+
+.c0:disabled {
+  background-color: #b1b1b1;
+  cursor: not-allowed;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`<Button /> > can render with edit class 1`] = `
+.c0 {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #1741a4;
+  margin-right: 8px;
+}
+
+.c0:disabled {
+  background-color: #b1b1b1;
+  cursor: not-allowed;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  Button
+</button>
+`;
+
+exports[`<Button /> > can render with remove class 1`] = `
+.c0 {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #c32121;
+}
+
+.c0:disabled {
+  background-color: #b1b1b1;
+  cursor: not-allowed;
+}
+
+<button
+  class="c0"
+  type="button"
+>
+  Button
+</button>
+`;
